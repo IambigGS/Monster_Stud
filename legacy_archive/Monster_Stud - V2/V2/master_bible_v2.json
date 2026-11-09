@@ -1,0 +1,137 @@
+{
+  "projectName": "Monster_Stud_Opening_Trailer",
+  "version": "v2",
+  "mode": "audio",
+  "synopsis": "Dark-fantasy realism 8k cinematic gladiator power-up trailer. A floating aerial camera approaches and dives into the Stage 1 Common Colosseum as the stadium crowd roars. In the center stone battle ring, the three rookie Newblood Stable starter creatures—the Common Dragon, Stegosaurus, and Dire Wolf—visibly power up mid-shot via glowing genetic runes, erupting into their ultimate Primal Apex, Colossus, and Ravager forms, uniting as World Champions.",
+  "targetRuntimeSeconds": 34,
+  "audio": {
+    "file": "raw_assets/MP3-Trailer-Opt1-V3-30secs-Primal Apex.mp3",
+    "durationSeconds": 33.6,
+    "transcription": "transcription.md"
+  },
+  "assetCards": [
+    {
+      "name": "set_colosseum_common",
+      "type": "setting",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v1"
+    },
+    {
+      "name": "char_dragon_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v1"
+    },
+    {
+      "name": "char_stego_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v1"
+    },
+    {
+      "name": "char_wolf_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v1"
+    },
+    {
+      "name": "char_dragon_primal-v2_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A colossal Tier 7 World Primal Apex wyvern-dragon with jagged black obsidian scales and swept-back obsidian crown horns, its parted fanged jaws roaring with violet astral fire. Its four massive spread bat wings radiate surging energy: emerald-green Colossus crystal spikes, royal-purple Mythic nebula lightning, blazing molten-crimson Ravager lava, and electric-cyan Phantom plasma. Wide leathery wings, long whipping tail, taloned limbs."
+    },
+    {
+      "name": "char_stego_colossus-v2_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A massive, battle-hardened quadruped Colossus Stegosaurus dinosaur on four thick pillar legs. Its arched spine is crowned with a towering double row of translucent emerald-green crystal dorsal plates and jagged osteoderms pulsing with bright green alchemical light, with a heavy spiked tail, rough moss-stone hide, and a rugged horned beak with sharp twin brow horns."
+    },
+    {
+      "name": "char_wolf_ravager-v2_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A ferocious, heavily muscled Ravager dire wolf in a coiled predatory lunge on razor-clawed paws. Volcanic black basalt hide cracked with blazing molten-crimson and lava-orange fissures across its chest and shoulders, with a bristling spined mane of roaring fire and glowing ember eyes, baring sharp ivory fangs."
+    }
+  ],
+  "clips": [
+    {
+      "id": "clip_01",
+      "name": "clip_01_colosseum_flyover",
+      "duration": "6s",
+      "timecode": "0:00-0:06",
+      "section": "Beat 1 - Floating Colosseum Approach & Bird's-Eye Reveal (0:00-0:06)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": [],
+      "propTags": [],
+      "stateLock": "no creatures in center ring; wood-fire braziers burning",
+      "startAnchor": false,
+      "status": "reused_from_v1",
+      "prompt": "High aerial establishing shot banking over @set_colosseum_common, no people in frame. The floating camera glides at 25 km/h through night mist before tilting straight down into a bird's-eye view of the circular arena. Warm amber wood-fire braziers cast flickering glow across the flagstones."
+    },
+    {
+      "id": "clip_02",
+      "name": "clip_02_roaring_crowd_dive",
+      "duration": "6s",
+      "timecode": "0:06-0:12",
+      "section": "Beat 2 - Vertical Plunge Into the Roaring Crowd & Rising Beast-Gate (0:06-0:12)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": [],
+      "propTags": [],
+      "stateLock": "no creatures in center ring; central iron portcullis beast-gate rattling upward",
+      "startAnchor": false,
+      "status": "reused_from_v1",
+      "prompt": "Steep vertical diving shot plunging into @set_colosseum_common, no people in frame. The camera hurtles downward at 40 km/h past tiered stone arches and fluttering banners before skimming low toward the iron portcullis gate as it rattles upward. Rising torchlight sparks scatter across the dusty stone steps."
+    },
+    {
+      "id": "clip-v2_03",
+      "name": "clip-v2_03_dragon_powerup",
+      "duration": "6s",
+      "timecode": "0:12-0:18",
+      "section": "Beat 3 - Spotlight 1: The Starter Dragon ('Breed the Anatomy!' 0:12-0:18)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_dragon_body", "@char_dragon_primal-v2_body"],
+      "propTags": [],
+      "stateLock": "dragon bronze scales cracking with violet and cyan energy; transforming into four-element obsidian wings",
+      "startAnchor": false,
+      "prompt": "Low-angle tracking shot pushing across @set_colosseum_common. @char_dragon_body stalks into the center ring before violently planting its talons as radiant violet-and-cyan runes ignite across the cracked stone floor. The camera tilts upward at 10 km/h as the beast roars skyward, morphing mid-shot into @char_dragon_primal-v2_body as swept-back obsidian crown horns and shimmering four-element crystal wings erupt from its back amid blinding atmospheric lens flares."
+    },
+    {
+      "id": "clip-v2_04",
+      "name": "clip-v2_04_stego_powerup",
+      "duration": "8s",
+      "timecode": "0:18-0:26",
+      "section": "Beat 4 - Spotlight 2: The Starter Stegosaurus ('Raise a Champion!' 0:18-0:26)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_stego_body", "@char_stego_colossus-v2_body"],
+      "propTags": [],
+      "stateLock": "stegosaurus moss-green hide surging with emerald crystal dorsal plates and twin brow horns",
+      "startAnchor": false,
+      "prompt": "Wide low-angle orbit gliding across @set_colosseum_common. @char_stego_body marches heavily through loose stone debris before slamming both front feet down on the flagstones. The camera accelerates in a 12 km/h arc as a pulse of brilliant emerald-green alchemical shockwaves cascades along its spine, transforming it mid-stride into @char_stego_colossus-v2_body with towering glowing crystal dorsal plates bursting upward and twin brow horns deflecting showering sparks."
+    },
+    {
+      "id": "clip-v2_05",
+      "name": "clip-v2_05_wolf_powerup_and_apex_trio",
+      "duration": "8s",
+      "timecode": "0:26-0:34",
+      "section": "Beat 5 - Spotlight 3: The Starter Dire Wolf & Trio Finale ('The Hall of Legends Claims Its Throne!' 0:26-0:34)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_wolf_body", "@char_wolf_ravager-v2_body", "@char_dragon_primal-v2_body", "@char_stego_colossus-v2_body"],
+      "propTags": [],
+      "stateLock": "dire wolf erupting into molten-crimson flames; trio united in full power-up forms",
+      "startAnchor": false,
+      "prompt": "Fast whip-pan across @set_colosseum_common focusing on @char_wolf_body lunging forward in a low predatory crouch. As its front paws strike the flagstones, roaring molten-crimson magma veins ignite across its chest and spined mane, transforming it mid-leap into @char_wolf_ravager-v2_body. The camera pulls back swiftly at 15 km/h to reveal @char_dragon_primal-v2_body, @char_stego_colossus-v2_body, and @char_wolf_ravager-v2_body standing united in the stone ring under swirling embers and four-colour elemental firelight."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneName": "Monster_Stud_Opening_Trailer_Scene_01-v2",
+      "clipSequence": [
+        "clip_01",
+        "clip_02",
+        "clip-v2_03",
+        "clip-v2_04",
+        "clip-v2_05"
+      ]
+    }
+  ]
+}

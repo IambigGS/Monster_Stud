@@ -1,0 +1,30 @@
+# Build outputs and standalone binaries (keep repo lightweight)
+builds/
+*.apk
+*.exe
+*.pdb
+
+# Build tools temp & caches
+build_tools/test_net/
+build_tools/windows_app/bin/
+build_tools/windows_app/obj/
+build_tools/windows_app/assets.zip
+build_tools/windows_app/publish_output/
+__pycache__/
+*.pyc
+
+# Android build cache
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# Legacy backup zip archives
+legacy_archive/*.zip
+
+# OS & Editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/

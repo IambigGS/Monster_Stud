@@ -1,0 +1,112 @@
+{
+  "projectName": "Monster_Stud_Battle_Bout",
+  "version": "v3",
+  "mode": "text",
+  "synopsis": "Dark-fantasy realism 8k cinematic gladiator arena bout and Mortal Kombat-style finishing move. Inside the Stage 1 Common Colosseum at night, Bleed Hide (an armoured Common War Rhino) and Snarl Snapper (an ash-grey Common Dire Wolf) clash across three intense combat exchanges. On the final exchange, Snarl Snapper awakens its volcanic Ravager bloodline and executes the 'Hellfang Spine-Breaker' finishing move, corkscrew-slamming Bleed Hide into the shattered arena flagstones for the knockout victory.",
+  "targetRuntimeSeconds": 34,
+  "assetCards": [
+    {
+      "name": "set_colosseum_common",
+      "type": "setting",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v1"
+    },
+    {
+      "name": "char_wolf_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v1"
+    },
+    {
+      "name": "char_wolf_ravager-v2_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "status": "reused_from_v2"
+    },
+    {
+      "name": "char_rhino-v3_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A colossal four-legged Common war rhino siege juggernaut standing on four pillar legs with blunt stone-crushing hooves. Covered in weathered iron-grey hide and dusty bronze-plated interlocking riveted armour plates across its broad back and flanks, with a spiked shoulder hump, a massive upward-curving primary bone nasal horn, a sharp secondary brow horn, and fierce sunken eyes."
+    }
+  ],
+  "clips": [
+    {
+      "id": "clip-v3_01",
+      "name": "clip-v3_01_arena_faceoff",
+      "duration": "6s",
+      "timecode": "0:00-0:06",
+      "section": "Beat 1 - Pre-Bout Gladiator Standoff (Bleed Hide vs Snarl Snapper, 0:00-0:06)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_rhino-v3_body", "@char_wolf_body"],
+      "propTags": [],
+      "stateLock": "rhino on left pawing flagstones with horn lowered; dire wolf on right in coiled predatory crouch with claws braced",
+      "startAnchor": false,
+      "prompt": "Wide low-angle two-shot across @set_colosseum_common. On the left side of the frame, @char_rhino-v3_body scrapes its heavy front hoof across the cracked flagstones and lowers its primary nasal horn, while on the right side @char_wolf_body stalks into a low coiled crouch with all four razor-clawed paws braced. The camera glides laterally at 8 km/h across the dusty stone ring as warm amber wood-fire braziers cast long flickering shadows and drifting embers between the two combatants."
+    },
+    {
+      "id": "clip-v3_02",
+      "name": "clip-v3_02_first_clash",
+      "duration": "6s",
+      "timecode": "0:06-0:12",
+      "section": "Beat 2 - Exchange 1/3: First Clash & Mutual Impact (-19% vs -16%, 0:06-0:12)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_rhino-v3_body", "@char_wolf_body"],
+      "propTags": [],
+      "stateLock": "rhino charging forward with nasal horn thrusting; dire wolf leaping diagonally to rake bronze shoulder plates",
+      "startAnchor": false,
+      "prompt": "High-speed lateral tracking shot across @set_colosseum_common. @char_rhino-v3_body thunders forward from the left with all four hooves pounding the stones while @char_wolf_body launches from the right in an explosive mid-air pounce. The camera tracks the violent center-ring collision at 25 km/h as @char_wolf_body rakes both foreclaws across the riveted shoulder armour of @char_rhino-v3_body while the upward-sweeping nasal horn glances off the wolf's flank, bursting a bright shower of metallic sparks and stone dust into the torchlit air."
+    },
+    {
+      "id": "clip-v3_03",
+      "name": "clip-v3_03_turning_point",
+      "duration": "6s",
+      "timecode": "0:12-0:18",
+      "section": "Beat 3 - Exchange 2/3: Turning Point & Crushing Counter-Strike (0:12-0:18)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_rhino-v3_body", "@char_wolf_body"],
+      "propTags": [],
+      "stateLock": "rhino lunging and staggering onto front knee; dire wolf vaulting over horn and driving claws into neck seam",
+      "startAnchor": false,
+      "prompt": "Dynamic low-angle orbiting shot inside @set_colosseum_common. As @char_rhino-v3_body lunges forward with a wide horn-sweep, @char_wolf_body blurs cleanly beneath the horn, vaults off the cracked flagstones, and drives both razor-clawed front paws down into the neck seam of @char_rhino-v3_body. The camera whips around the impact at 18 km/h as the staggering blow forces @char_rhino-v3_body down onto one front knee, kicking up a swirling cloud of grit under the harsh amber brazier glow."
+    },
+    {
+      "id": "clip-v3_04",
+      "name": "clip-v3_04_finisher_awakening",
+      "duration": "8s",
+      "timecode": "0:18-0:26",
+      "section": "Beat 4 - Exchange 3/3 (Part 1): 'Finish Him!' Ravager Bloodline Awakening (0:18-0:26)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_rhino-v3_body", "@char_wolf_body", "@char_wolf_ravager-v2_body"],
+      "propTags": [],
+      "stateLock": "rhino dazed and kneeling in foreground; dire wolf igniting with molten-crimson magma fissures into Ravager form",
+      "startAnchor": false,
+      "prompt": "Dramatic low-angle dolly push-in across @set_colosseum_common. In the left foreground, @char_rhino-v3_body sways dazed on one knee with lowered head while in the midground @char_wolf_body plants its front paws and throws its muzzle skyward. The camera pushes in at 12 km/h as the arena shadows deepen to blood-crimson and volcanic lava fissures burst across the wolf's chest and spine, transforming it mid-howl into @char_wolf_ravager-v2_body wreathed in a roaring mane of molten-orange fire that floods the flagstones with searing crimson light."
+    },
+    {
+      "id": "clip-v3_05",
+      "name": "clip-v3_05_mk_fatality_knockout",
+      "duration": "8s",
+      "timecode": "0:26-0:34",
+      "section": "Beat 5 - Exchange 3/3 (Part 2): Mortal Kombat Finisher 'Hellfang Spine-Breaker' & K.O. Victory (0:26-0:34)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_wolf_ravager-v2_body", "@char_rhino-v3_body"],
+      "propTags": [],
+      "stateLock": "Ravager dire wolf corkscrew-slamming war rhino into shattered magma-lit flagstones; rhino knocked out flat; wolf standing victorious",
+      "startAnchor": false,
+      "prompt": "Explosive whip-pan into a wide impact shot inside @set_colosseum_common. @char_wolf_ravager-v2_body catapults forward as a blurring streak of molten-crimson fire, clamping its fanged jaws onto the shoulder crest of @char_rhino-v3_body in mid-air and wrenching the colossal juggernaut into a violent corkscrew slam straight down into the arena floor. The camera shakes with the impact and pulls back at 14 km/h as the flagstones shatter in a radial shockwave of lava embers, leaving @char_rhino-v3_body knocked out motionless in the crater while @char_wolf_ravager-v2_body plants a victorious front paw on the downed armoured back."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneName": "Monster_Stud_Battle_Scene_01-v3",
+      "clipSequence": [
+        "clip-v3_01",
+        "clip-v3_02",
+        "clip-v3_03",
+        "clip-v3_04",
+        "clip-v3_05"
+      ]
+    }
+  ]
+}

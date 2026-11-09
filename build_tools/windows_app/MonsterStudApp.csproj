@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+    <AssemblyName>MonsterStud-v1.0.0</AssemblyName>
+    <RootNamespace>DragonCopper.MonsterStud</RootNamespace>
+    <AssemblyTitle>Monster Stud — Genetic League</AssemblyTitle>
+    <Product>Monster Stud</Product>
+    <Company>DragonCopper</Company>
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <InformationalVersion>1.0.0</InformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4314.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets.zip" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,116 @@
+{
+  "projectName": "Monster_Stud_Opening_Trailer",
+  "mode": "audio",
+  "synopsis": "Dark-fantasy realism 8k cinematic gladiator trailer. A floating aerial camera approaches and dives into the Stage 1 Common Colosseum as the stadium crowd roars, spotlighting the three Newblood Stable starter creatures—the Common Dragon, Common Stegosaurus, and Common Dire Wolf—uniting in the center stone battle ring.",
+  "targetRuntimeSeconds": 34,
+  "audio": {
+    "file": "raw_assets/MP3-Trailer-Opt1-V3-30secs-Primal Apex.mp3",
+    "durationSeconds": 33.6,
+    "transcription": "asset_descriptives.md"
+  },
+  "assetCards": [
+    {
+      "name": "set_colosseum_common",
+      "type": "setting",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, wide low-angle symmetrical view across the Stage 1 Common Colosseum at night under dark storm clouds. A circular cracked flagstone battle ring in the foreground leads to wide stone steps and a central arched timber-and-iron portcullis beast-gate, flanked by two unpolished stone warrior statues and tattered earthy-brown banners. Curved multi-tiered sandstone and grey-stone spectator galleries wrap around the arena, lit by warm amber wood-fire braziers along the parapet walls. No creatures in the center ring."
+    },
+    {
+      "name": "char_dragon_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A fierce, muscular Common wyvern-dragon with weathered bronze-brown and earthy ochre scales, wide leathery bat-like wings with sharp wing-thumb spurs, a long muscular tail, powerful hindlegs planted firmly, and smaller raptorial forelimbs with curved black talons. Angular reptilian skull crowned with swept-back bone brow horns, parted jaws with white fangs, and glowing pupil-less white eyes."
+    },
+    {
+      "name": "char_stego_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A heavy, battle-bred Common Stegosaurus dinosaur standing on four massive pillar legs with blunt stone-crushing claws and a thick pebbly moss-green and dark olive hide. A dramatic double row of oversized, jagged bronze-brown diamond dorsal plates rises along its arched spine to a muscular spiked tail, with a rugged beaked head featuring an upward nasal horn and twin brow horns."
+    },
+    {
+      "name": "char_wolf_body",
+      "type": "character_body_headless",
+      "aspectRatio": "16:9",
+      "prompt": "8k dark-fantasy realism, full-body studio reference on a solid light gray background. A lean, heavily muscled Common dire wolf with ash-grey and dark charcoal fur in a low, coiled predatory stance on four scarred legs with razor-clawed paws. A jagged, bristling mane of spiked silver-white and black fur erupts across its neck and shoulders, framing a snarling muzzle with bared ivory fangs and piercing pale-white eyes."
+    }
+  ],
+  "clips": [
+    {
+      "id": "clip_01",
+      "name": "clip_01_colosseum_flyover",
+      "duration": "6s",
+      "timecode": "0:00-0:06",
+      "section": "Beat 1 - Floating Colosseum Approach & Bird's-Eye Reveal (0:00-0:06)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": [],
+      "propTags": [],
+      "stateLock": "no creatures in center ring; wood-fire braziers burning",
+      "startAnchor": false,
+      "prompt": "High aerial establishing shot banking over @set_colosseum_common, no people in frame. The floating camera glides at 25 km/h through night mist before tilting straight down into a bird's-eye view of the circular arena. Warm amber wood-fire braziers cast flickering glow across the flagstones."
+    },
+    {
+      "id": "clip_02",
+      "name": "clip_02_roaring_crowd_dive",
+      "duration": "6s",
+      "timecode": "0:06-0:12",
+      "section": "Beat 2 - Vertical Plunge Into the Roaring Crowd & Rising Beast-Gate (0:06-0:12)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": [],
+      "propTags": [],
+      "stateLock": "no creatures in center ring; central iron portcullis beast-gate rattling upward",
+      "startAnchor": false,
+      "prompt": "Steep vertical diving shot plunging into @set_colosseum_common, no people in frame. The camera hurtles downward at 40 km/h past tiered stone arches and fluttering banners before skimming low toward the iron portcullis gate as it rattles upward. Rising torchlight sparks scatter across the dusty stone steps."
+    },
+    {
+      "id": "clip_03",
+      "name": "clip_03_dragon_spotlight",
+      "duration": "6s",
+      "timecode": "0:12-0:18",
+      "section": "Beat 3 - Spotlight 1: The Starter Dragon ('Breed the Anatomy!' 0:12-0:18)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_dragon_body"],
+      "propTags": [],
+      "stateLock": "natural bronze-brown scales; wings snapping open; both hindlegs planted; foreclaws empty",
+      "startAnchor": false,
+      "prompt": "Low-angle hero shot inside @set_colosseum_common as @char_dragon_body stalks onto the center ring with foreclaws empty. The camera pushes in at 8 km/h while @char_dragon_body plants both hindlegs, snaps its wings wide open, and cranes its neck skyward. Amber brazier firelight rims the outstretched wings."
+    },
+    {
+      "id": "clip_04",
+      "name": "clip_04_stego_spotlight",
+      "duration": "8s",
+      "timecode": "0:18-0:26",
+      "section": "Beat 4 - Spotlight 2: The Starter Stegosaurus ('Raise a Champion!' 0:18-0:26)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_stego_body"],
+      "propTags": [],
+      "stateLock": "natural moss-green hide and bronze dorsal plates; all four feet planted on stone",
+      "startAnchor": false,
+      "prompt": "Wide low-angle tracking shot across @set_colosseum_common as @char_stego_body marches into the stone ring with all four feet planted. The gimbal camera orbits smoothly at 10 km/h while @char_stego_body crushes loose rubble underfoot and swings its heavy tail. Warm torchlight glints sharply along the raised dorsal plates."
+    },
+    {
+      "id": "clip_05",
+      "name": "clip_05_wolf_and_trio_standoff",
+      "duration": "8s",
+      "timecode": "0:26-0:34",
+      "section": "Beat 5 - Spotlight 3: The Starter Dire Wolf & Trio Finale ('The Hall of Legends Claims Its Throne!' 0:26-0:34)",
+      "setTag": "@set_colosseum_common",
+      "characterTags": ["@char_wolf_body", "@char_dragon_body", "@char_stego_body"],
+      "propTags": [],
+      "stateLock": "wolf in low predatory crouch with front paws braced; dragon and stegosaurus flanking in center ring",
+      "startAnchor": false,
+      "prompt": "Fast whip-pan across @set_colosseum_common settling on @char_wolf_body lunging into a low crouch with front paws braced. The camera pulls back at 12 km/h to reveal @char_dragon_body, @char_stego_body, and @char_wolf_body standing united in the center ring. Swirling embers and warm brazier shadows sweep across the arena floor."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneName": "Monster_Stud_Opening_Trailer_Scene_01",
+      "clipSequence": [
+        "clip_01",
+        "clip_02",
+        "clip_03",
+        "clip_04",
+        "clip_05"
+      ]
+    }
+  ]
+}
