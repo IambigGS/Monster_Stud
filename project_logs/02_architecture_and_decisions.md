@@ -43,3 +43,13 @@
 
 ## Pending Decisions (To Discuss When Ready)
 - **`DEC-002` (Pending)**: Android Packaging Toolchain (Native Android Gradle WebView wrapper vs. Capacitor—will select whichever compiles cleanest locally).
+
+### `DEC-008` — Continuous Deployment & In-Place Updates for Telegram / GitHub Pages (2026-11-10)
+- **Status**: ✅ Locked In & Live
+- **Decision**: For the Telegram Mini App and web version, use a single continuous deployment pipeline (`origin/main` $\rightarrow$ `.github/workflows/deploy.yml` $\rightarrow$ `gh-pages` $\rightarrow$ `https://iambiggs.github.io/Monster_Stud/`). 
+- **In-Place Seamless Updating**: All future game updates pushed to `main` automatically update the live site at that exact same URL in place. We do **not** create new GitHub repositories or alternate URLs for new versions; Telegram's direct link (`t.me/BOT_AWOTBOT/dragon_cooper`) remains permanent and immediately launches the newest release.
+- **Git History Retention**: Git permanently tracks every commit, so older revisions are safely preserved in Git version history without cluttering the web namespace.
+
+### `DEC-009` — Downloadable Binary Version Archival (APK & Windows EXE) (2026-11-10)
+- **Status**: ✅ Locked In
+- **Decision**: Unlike the live web app, standalone binaries intended for offline install/play (`.apk` in `builds/apk/` and `.exe` in `builds/windows-exe/`) strictly preserve explicit semantic version filenames (`v1.0.0`, `v1.0.1`, `v1.0.2`, etc.) and are never overwritten, giving Steve and Adam a complete historical shelf of portable releases.

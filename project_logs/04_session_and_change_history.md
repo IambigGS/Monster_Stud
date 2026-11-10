@@ -133,3 +133,14 @@
 - **GitHub Actions Deployment**:
   - `.github/workflows/deploy.yml` triggered automatically on push.
   - Deploys `web/` directly to branch `gh-pages` to serve live on `https://IambigGS.github.io/Monster_Stud/`.
+
+
+---
+
+## 2026-11-10 — Session 8: GitHub Pages Activation Verified & In-Place Update Protocol Locked
+- **Telegram Mini App Live Verification**:
+  - Steve enabled GitHub Pages on `gh-pages` branch at `https://github.com/IambigGS/Monster_Stud/settings/pages`.
+  - Verified live boot in Telegram via direct link `t.me/BOT_AWOTBOT/dragon_cooper`. Game boots with unmuted sound and full gameplay inside Telegram Mini App.
+- **Architectural Policy Formalized**:
+  - `DEC-008`: Telegram / GitHub Pages uses permanent single-URL in-place updates. Pushing `main` deploys the new release without changing Telegram links or spawning new repos. Git retains all historical commits.
+  - `DEC-009`: Standalone binaries (APK & EXE) continue to preserve distinct versioned files in `builds/`.
